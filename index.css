@@ -1,0 +1,156 @@
+.body {
+    margin: 0;
+    background-color: bisque;
+}
+.header {
+    background-image: url(./изображение/bowl-tea-from-various-herb-with-dried-flowers.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background-position: center bottom;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style:  none;
+}
+.li_link {
+    text-decoration: none;
+    color: #E0E0D4;
+    font-family:"Pacifico", cursive;
+}
+.main_title {
+    margin-bottom: 5px;
+    margin-top: 2%;
+/*-webkit-text-stroke: 1px #00000017;*/
+    text-align: center;
+    color: #F5F5DC;
+    font-size: 400%;
+    font-family:"Pacifico", cursive;
+}
+.main_description {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #F5F5DC;
+    /*-webkit-text-stroke: 1px #c08b7b78;*/
+    font-family:"Pacifico", cursive;
+}
+.header_button {
+    margin-bottom: 5%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    list-style:  none;
+}
+.main_button {
+    background: #f9f2de;
+    border-radius: 7px;
+    font-family:"Pacifico", cursive;
+    color: #393728;
+    border-color: #ffd96938;
+}
+.main {
+    
+}
+.section_p {
+    font-family:"Lora", cursive;
+    color: #393728;
+    text-align: center;
+}
+.main_section {
+    
+}
+.section_article {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.article_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.article_img {
+    width: 20%;
+    height: 75%;
+}
+.article_p {
+    margin: 0;
+    margin-left: 5%;
+    width: 40%;
+    font-family:"Lora", cursive;
+    color: #393728;
+    display: flex;
+    flex-direction: row;
+}
+/*.article_img {
+    width: 27%;
+    height: 15%;
+}*/
+.section_title {
+    margin-bottom: 5px;
+    margin-top: 2%;
+/*-webkit-text-stroke: 1px #00000017;*/
+    text-align: center;
+    color: #393728;
+    font-size: 140%;
+    font-family:"Lora", cursive;
+}
+.by_tea_title {
+    font-size: 200%;
+    margin-bottom: 2rem;
+    margin-top: 2%;
+}
+.effects_of_tea_section {
+    display: flex;
+    flex-direction: row;
+}
+.section_div {
+    /*margin-left: 7%;
+    margin-left: 7%;*/
+    /*display: flex;
+    flex-direction: column;*/
+    text-align: center;
+    font-family:"Lora", cursive;
+    color: #393728;
+}
+.div_title {
+    font-size: 100%;
+}
+.div_p {
+    margin-left: 25%;
+    width: 50%;
+    height: 95%;
+}
+.product_description_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+.section_img {
+    width: 20%;
+    height: 95%;
+}
+.product_description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+.icon_img {
+    margin-left: 3rem;
+    width: 2rem;
+}
+.description_of_tea {
+    margin-left: 1%;
+    margin-right: 8%;
+}
