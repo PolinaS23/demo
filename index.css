@@ -154,3 +154,10 @@
     margin-left: 1%;
     margin-right: 8%;
 }
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer_icon {
+    height: 3rem;
+}
